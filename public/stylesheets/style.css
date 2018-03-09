@@ -1,0 +1,61 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+body {
+  padding: 50px;
+  font: 14px 'Montserrat';
+  text-align: center;
+  margin: 8px; }
+
+a {
+  color: #00B7FF; }
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left; }
+
+.vertical-center {
+  position: absolute;
+  top: 50%; }
+
+.no-select {
+  user-select: none; }
+
+.margin-top-4 {
+  margin: 4vh 0vh; }
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px 0px 5px;
+  z-index: 100;
+  width: 100%;
+  height: 58px;
+  background-color: #00a087; }
+
+input[name$=Name] {
+  margin-left: 2vw;
+  border-style: none none solid;
+  border-bottom-color: #b9b9b9; }
+  input[name$=Name]:focus {
+    border-bottom-color: black;
+    outline: none; }
+
+.input-container {
+  display: flex;
+  letter-spacing: 0.4em;
+  justify-content: space-between; }
+  .input-container span::first-letter {
+    font-size: 1.9em;
+    font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
